@@ -15,13 +15,13 @@ function App() {
         <div className='buttons-div'>
           <FunButton symbol={"i"} onscrean={"i"} />
           <FunButton symbol={"+"} onscrean={"deg"} />
-          <FunButton symbol={"sin("} onscrean={"sin("} />
-          <FunButton symbol={"cos"} onscrean={"cos("} />
-          <FunButton symbol={"tan("} onscrean={"tan("} />
+          <FunButton symbol={"sin(pi/180*"} onscrean={"sin("} />
+          <FunButton symbol={"cos(pi/180*"} onscrean={"cos("} />
+          <FunButton symbol={"tan(pi/180*"} onscrean={"tan("} />
 
-          <FunButton symbol={"+"} onscrean={"x^y"} />
+          <FunButton symbol={"^"} onscrean={"^"} />
           <FunButton symbol={"log("} onscrean={"log("} />
-          <FunButton symbol={"ln("} onscrean={"ln("} />
+          <FunButton symbol={"log("} onscrean={"ln("} />
           <FunButton symbol={"("} onscrean={"("} />
           <FunButton symbol={")"} onscrean={")"} />
 
