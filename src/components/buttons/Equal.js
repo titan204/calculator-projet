@@ -17,6 +17,7 @@ export default function Equal (){
                 setscreanexp("Mathematical error! : "  )
                 setTimeout(() => {
                     setscreanexp("");
+                    setexp("");
                 }, 1000);
             }
 
